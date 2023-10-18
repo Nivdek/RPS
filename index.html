@@ -12,14 +12,18 @@
     <h1>Rock, Paper, Scissors</h1>
 
     <div class="game-area">
+
       <div class="playing-field">
-        <div class="user-select">
-          <img src="assets/images/scissors.jpg" />
-        </div>
-        <div class="cpu-select">
-          <img src="assets/images/scissors.jpg" />
+        <div class="select-image">
+            <span class="user-select">
+                <img src="assets/images/scissors.jpg" />
+            </span>
+            <span class="cpu-select">
+                <img src="assets/images/scissors.jpg" />
+            </span>
         </div>
       </div>
+
       <div class="playing-options">
         <button data-type="rock">
           <img src="assets/images/rock.jpg" />
@@ -31,9 +35,13 @@
           <img src="assets/images/scissors.jpg" />
         </button>
       </div>
+      
     </div>
 
-    <div class="score-area"></div>
+    <div class="score-area">
+        <p>You</p>
+        <p>CPU</p>
+    </div>
 
     <!-- Font Awesome Kit -->
     <script

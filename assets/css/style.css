@@ -16,7 +16,12 @@ body {
     justify-content: center;
 }
 
-.user-select img {
-    width: 100px;
+.select-image img {
     height: 100px;
+    width: 100px;
+}
+
+.playing-options img {
+    height: 100px;
+    width: 100px;
 }
