@@ -9,12 +9,12 @@
     <title>Rock, Paper, Scissors</title>
   </head>
   <body>
-    <h1>Rock, Paper, Scissors</h1>
+    <h1 class="heading">Rock, Paper, Scissors</h1>
 
     <div class="game-area">
 
       <div class="playing-field">
-        <div class="select-image">
+        <div class="select-images">
             <span class="user-select">
                 <img src="assets/images/scissors.jpg" />
             </span>
@@ -22,25 +22,29 @@
                 <img src="assets/images/scissors.jpg" />
             </span>
         </div>
+        <div class="game-text">Let's Play!</div>
       </div>
 
       <div class="playing-options">
         <button data-type="rock">
           <img src="assets/images/rock.jpg" />
+          <p>Rock</p>
         </button>
         <button data-type="paper">
           <img src="assets/images/paper.jpg" />
+          <p>Paper</p>
         </button>
         <button data-type="scissors">
           <img src="assets/images/scissors.jpg" />
+          <p>Scissors</p>
         </button>
       </div>
       
     </div>
 
     <div class="score-area">
-        <p>You</p>
-        <p>CPU</p>
+        <p>You <span>0</span></p>
+        <p>CPU <span>0</span></p>
     </div>
 
     <!-- Font Awesome Kit -->

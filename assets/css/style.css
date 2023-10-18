@@ -14,14 +14,61 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    flex-direction: column;
 }
 
-.select-image img {
-    height: 100px;
-    width: 100px;
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    top: 0;
+    padding: 0.5rem;
+}
+
+.game-area {
+    border-radius: 1rem;
+    padding: 4%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-images {
+    display: flex;
+    column-gap: 7rem;
+}
+
+.select-images img {
+    height: 12rem;
+    width: 10rem;
+}
+
+.user-select img {
+    transform: rotate(90deg);
+}
+
+.cpu-select img {
+    transform: rotate(-90deg) rotateY(180deg);
+}
+
+.game-text {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.playing-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .playing-options img {
-    height: 100px;
-    width: 100px;
+    height: 8rem;
+    width: 6.5rem;
+}
+
+/*Score Area*/
+.score-area {
+    display: flex;
+    align-items: center;
 }
