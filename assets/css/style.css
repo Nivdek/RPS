@@ -17,6 +17,9 @@ body {
     background-color: white;
     flex-direction: column;
     text-align: center;
+    height: auto;
+    width: auto;
+    margin-top: 3rem;
 }
 
 .heading {
@@ -61,13 +64,22 @@ body {
 .game-text {
     text-align: center;
     font-size: 2.5rem;
-    padding: 1%;
+    padding: 8%;
+
 }
+
+/* User Input styling */
 
 .playing-options {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.btn {
+    font-size: 150%;
+    background-color: white;
+    border: none;
 }
 
 .playing-options img {
@@ -78,10 +90,21 @@ body {
 /*Score Area*/
 .score-area {
     display: flex;
-    
+    justify-content: space-evenly;
 }
 
 .score {
     display: inline-block;
-    padding: 25px;
+    padding: 2rem;
+    font-size: 125%;
+}
+
+#user-score {
+    color: green;
+    font-weight: bold;
+}
+
+#cpu-score {
+    color: red;
+    font-weight: bold;
 }
