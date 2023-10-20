@@ -87,6 +87,10 @@ body {
     width: 7rem;
 }
 
+.button-text {
+    display: block;
+}
+
 /*Score Area*/
 .score-area {
     display: flex;

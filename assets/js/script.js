@@ -8,7 +8,7 @@ let cpu;
 
 /** Main Gameplay Loop */
 buttons.forEach(button => button.addEventListener("click", () => {
-    player = button.querySelector('p').textContent;
+    player = button.querySelector('span').textContent;
     userImage = button.querySelector('img').src;
     document.getElementById("user-play").src = userImage;
     cpuTurn()
