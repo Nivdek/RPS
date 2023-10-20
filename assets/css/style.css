@@ -62,7 +62,7 @@ body {
     transform: rotate(-90deg) rotateY(180deg);
 }
 
-.game-text {
+#game-text {
     text-align: center;
     font-size: 2.5rem;
     padding: 8%;
