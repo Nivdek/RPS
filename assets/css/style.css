@@ -45,6 +45,7 @@ body {
 .select-images {
     display: flex;
     column-gap: 6rem;
+    justify-content: center;
 }
 
 .select-images img {
@@ -73,7 +74,9 @@ body {
 .playing-options {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .btn {
