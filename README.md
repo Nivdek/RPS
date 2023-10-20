@@ -1,39 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors
 
-Welcome,
+This timeless classic hardly needs an introduction!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Rock, Paper, Scissors is a multi-platform browser game based on the
+very game we all played as kids!
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![Responsice Mockup](/assets/images/rps-readme1.png)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+-__Game Window__-
 
-`python3 -m http.server`
+- The Game Window is instantly apparent upon entering the site
+- The text prompting you to make a choice immediately let's you start playing without having to sign up or enter any details
+![Game Window](/assets/images/rps-readme2.png)
+  
+-__Gameplay Buttons__-
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- The games buttons have good visibility and are of a user-friendly size regardless of screen size
+- Clicking a button provides an immediate visual respone depending on what hand you've chosen to play
+![Buttons](/assets/images/rps-readme3.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+-__Score System__-
 
-`http_server`
+- A working score system that has been color-coded for user-experience
+![Score](/assets/images/rps-readme4.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Planned Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+-__Difficulty Levels__-
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Atleast one new difficulty is planned, where the computer is mathematically more likely to beat you
+  
+-__Additional Hands__-
 
-To log into the Heroku toolbelt CLI:
+- Additional playable hands like "Spock" and "Lizard" are planned to add more interactivity to the game
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+-__Leaderboards__-
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Leaderboards for score where a user can enter a name and upload their score to a leaderboard
 
----
+## Testing
 
-Happy coding!
+- The site has been tested on all different standardized screens and sizes, it has gone through thorough testing of it's interactive components such as buttons, score system.
+  
+### Validator Testing
