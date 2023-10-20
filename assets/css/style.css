@@ -12,7 +12,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #fafafa;
     flex-direction: column;
     text-align: center;
     height: auto;
@@ -64,7 +64,6 @@ body {
     text-align: center;
     font-size: 2.5rem;
     padding: 8%;
-
 }
 
 /* User Input styling */
