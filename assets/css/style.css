@@ -1,7 +1,4 @@
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&family=Uncial+Antiqua&family=Young+Serif&display=swap');
-
-/* Wildcard Selector */
+/* Asterisk selector */
 * {
     margin: 0;
     padding: 0;
