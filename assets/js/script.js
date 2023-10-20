@@ -7,14 +7,17 @@ let player;
 let cpu;
 let result;
 
+/** Main Gameplay Loop */
 buttons.forEach(button => button.addEventListener("click", () => {
     player = button.querySelector('p').textContent;
     userImage = button.querySelector('img').src;
     document.getElementById("user-play").src = userImage;
     cpuTurn()
     gameText.textContent  = checkWinner();
+    scoreCounter()
 }));
 
+/** Function to run Computer choice */
 function cpuTurn (){
     let randomNumber = Math.floor(Math.random() * 3) + 1;
     switch(randomNumber){
@@ -41,6 +44,8 @@ function cpuTurn (){
     }
 }
 
+
+/** Function to compare options and determine a statement */
 function checkWinner() {
     if(player == cpu) {
         return "Stalemate!"
@@ -53,3 +58,21 @@ function checkWinner() {
     }
 }
 
+/** */
+function scoreCounter() {
+    if (gameText.textContent == "Victory!") {
+        userWin()
+    } else if (gameText.textContent == "Defeat!") {
+        cpuWin()
+    } 
+}
+
+function userWin() {
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++oldScore;
+}
+
+function cpuWin() {
+    let oldScore = parseInt(document.getElementById("cpu-score").innerText);
+    document.getElementById("cpu-score").innerText = ++oldScore;
+}
