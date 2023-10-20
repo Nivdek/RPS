@@ -11,9 +11,9 @@ buttons.forEach(button => button.addEventListener("click", () => {
     player = button.querySelector('span').textContent;
     userImage = button.querySelector('img').src;
     document.getElementById("user-play").src = userImage;
-    cpuTurn()
+    cpuTurn();
     gameText.textContent  = checkWinner();
-    scoreCounter()
+    scoreCounter();
 }));
 
 /** Function to run Computer choice */
@@ -32,13 +32,13 @@ function cpuTurn (){
     }
 
     if (cpu === "Rock") {
-        cpuImage = "assets/images/rock.jpg"
+        cpuImage = "assets/images/rock.jpg";
         document.getElementById("cpu-play").src = cpuImage;
     } else if (cpu === "Paper") {
-        cpuImage = "assets/images/paper.jpg"
+        cpuImage = "assets/images/paper.jpg";
         document.getElementById("cpu-play").src = cpuImage;
     } else if (cpu === "Scissors") {
-        cpuImage = "assets/images/scissors.jpg"
+        cpuImage = "assets/images/scissors.jpg";
         document.getElementById("cpu-play").src = cpuImage;
     }
 }
@@ -47,7 +47,7 @@ function cpuTurn (){
 /** Function to compare options and determine a statement */
 function checkWinner() {
     if(player == cpu) {
-        return "Stalemate!"
+        return "Stalemate!";
     } else if(cpu == "Rock") {
         return (player == "Paper") ? "Victory!" : "Defeat!";
     } else if (cpu == "Paper") {
@@ -60,9 +60,9 @@ function checkWinner() {
 /** Function to check who won and store it */
 function scoreCounter() {
     if (gameText.textContent == "Victory!") {
-        userWin()
+        userWin();
     } else if (gameText.textContent == "Defeat!") {
-        cpuWin()
+        cpuWin();
     } 
 }
 
