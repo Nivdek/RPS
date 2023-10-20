@@ -57,4 +57,24 @@ very game we all played as kids!
 
 ### Lighthouse
 
-- 
+- The site has been run through the Lighthouse available in the Chrome Developer Tools and came back with a good score.
+  ![Lighthouse](/assets/images/lighthouse-rps.png)
+
+### Bugs/Unresolved Issues
+
+- The only possible issues that are left unresolved are the lines of ES6 code that could cause issues for some users.
+
+## Deployment
+
+- The site was deployed to GitHub Pages. The steps to deploy are:
+  - In the GitHub repository, go to Settings
+  - From the source section, select the Main Branch
+  - Once the Main Branch has been selected the page will being deployment.
+
+The live site can be found at: <https://nivdek.github.io/RPS/index.html>
+
+## Credits
+
+- Favicon was made with [Favicon.io](https://favicon.io/)
+- Fonts came from [Google Fonts](https://fonts.google.com/)
+-  [This Youtube Tutorial](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) was a big help in creating the function for determining winner
