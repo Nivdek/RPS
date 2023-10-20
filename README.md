@@ -57,8 +57,8 @@ very game we all played as kids!
 
 ### Lighthouse
 
-- The site has been run through the Lighthouse available in the Chrome Developer Tools and came back with a good score.
-  ![Lighthouse](/assets/images/lighthouse-rps.png)
+- The site has been run through the Lighthouse available in the Chrome Developer Tools and came back with a good score.  
+![Lighthouse](/assets/images/lighthouse-rps.png)
 
 ### Bugs/Unresolved Issues
 
