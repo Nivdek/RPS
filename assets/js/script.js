@@ -5,7 +5,6 @@ let cpuImage = document.getElementById("cpu-play").src;
 let gameText = document.getElementById("game-text");
 let player;
 let cpu;
-let result;
 
 /** Main Gameplay Loop */
 buttons.forEach(button => button.addEventListener("click", () => {
@@ -58,7 +57,7 @@ function checkWinner() {
     }
 }
 
-/** */
+/** Function to check who won and store it */
 function scoreCounter() {
     if (gameText.textContent == "Victory!") {
         userWin()
@@ -67,11 +66,13 @@ function scoreCounter() {
     } 
 }
 
+/** Function to increase user score on win */
 function userWin() {
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
 }
 
+/** Function to increase cpu score on defeat */
 function cpuWin() {
     let oldScore = parseInt(document.getElementById("cpu-score").innerText);
     document.getElementById("cpu-score").innerText = ++oldScore;
